@@ -23,27 +23,166 @@
 
   <section class="hero" id="top">
     <div class="container hero-inner">
-      <h1>Awaken • Restore • Flourish</h1>
-      <p class="lead">Transformative nature retreats with yoga, meditation, nourishing cuisine, and soulful community.</p>
-      <div class="hero-cta">
-        <a class="btn" href="#programs">Explore Retreats</a>
-        <a class="btn-outline" href="#contact">Book Inquiry</a>
+      <div class="hero-content">
+        <h1>Awaken • Restore • Flourish</h1>
+        <p class="lead">Transformative nature retreats with yoga, meditation, nourishing cuisine, and soulful community.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#programs">Explore Retreats</a>
+          <a class="btn-outline" href="#contact">Book Inquiry</a>
+        </div>
       </div>
       <div class="hero-image" role="img" aria-label="Sunrise over serene retreat" style="background-image:url('images/hero.jpg')"></div>
     </div>
   </section>
 
   <main>
+    <!-- About Section -->
     <section id="about" class="section container">
       <h2>About Makaywana</h2>
       <p class="muted">A sanctuary nestled in gentle hills — we guide you back to balance with intentional practices, clean seasonal food, and soulful connection.</p>
       <div class="features">
         <div class="feature">
-          <img src="images/icon-heart.svg" alt="" />
+          <div style="font-size: 3rem; margin-bottom: var(--spacing-md);">❤️</div>
           <h3>Heart-Centered</h3>
+          <p>We honor the sacred heart at the center of all healing and transformation.</p>
+        </div>
+        <div class="feature">
+          <div style="font-size: 3rem; margin-bottom: var(--spacing-md);">🌿</div>
+          <h3>Nature-Based</h3>
+          <p>Immerse yourself in the wisdom and healing power of the natural world.</p>
+        </div>
+        <div class="feature">
+          <div style="font-size: 3rem; margin-bottom: var(--spacing-md);">🤝</div>
+          <h3>Community</h3>
+          <p>Connect with like-hearted souls in a circle of support and authentic presence.</p>
         </div>
       </div>
     </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2>Our Sacred Space</h2>
+      </div>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="images/gallery-1.jpg" alt="Sacred Herbs and Traditional Textiles" />
+          <div class="gallery-overlay">
+            <p>Sacred Herbs & Textiles</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-2.jpg" alt="Indigenous Artistry and Cultural Traditions" />
+          <div class="gallery-overlay">
+            <p>Indigenous Artistry</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-3.jpg" alt="Sacred Community Gathering" />
+          <div class="gallery-overlay">
+            <p>Sacred Community</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-4.jpg" alt="Ancient Wisdom and Practice" />
+          <div class="gallery-overlay">
+            <p>Ancient Wisdom</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="section container">
+      <h2>Retreat Programs</h2>
+      <p class="muted">Choose from our transformative retreat experiences, each designed to guide you deeper into wellness and self-discovery.</p>
+      <div class="programs">
+        <div class="program-card">
+          <h3>Yoga & Meditation Retreat</h3>
+          <p>A 5-day immersive journey through vinyasa flow, yin yoga, and guided meditation. Perfect for beginners and experienced practitioners alike.</p>
+          <p><strong>Duration:</strong> 5 Days</p>
+          <p><strong>Group Size:</strong> 12-18 participants</p>
+          <a href="#contact" class="btn-small">Learn More</a>
+        </div>
+        <div class="program-card">
+          <h3>Healing Herbalism Intensive</h3>
+          <p>Discover the ancient art of plant medicine. Learn sustainable harvesting, preparation, and integration of sacred herbs into daily practice.</p>
+          <p><strong>Duration:</strong> 3 Days</p>
+          <p><strong>Group Size:</strong> 8-12 participants</p>
+          <a href="#contact" class="btn-small">Learn More</a>
+        </div>
+        <div class="program-card">
+          <h3>Sacred Arts & Culture</h3>
+          <p>Explore indigenous artistry, traditional textiles, and cultural wisdom through hands-on workshops and storytelling circles.</p>
+          <p><strong>Duration:</strong> 4 Days</p>
+          <p><strong>Group Size:</strong> 15-20 participants</p>
+          <a href="#contact" class="btn-small">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accommodation Section -->
+    <section id="accommodation" class="section container">
+      <h2>Where You'll Stay</h2>
+      <p class="muted">Our retreat center offers comfortable, eco-conscious accommodations surrounded by nature and community.</p>
+      <div class="accommodation-grid">
+        <div class="accommodation-item">
+          <h3>🏡 Private Cabins</h3>
+          <p>Nestled in nature with modern amenities, each cabin offers a peaceful sanctuary for rest and reflection.</p>
+        </div>
+        <div class="accommodation-item">
+          <h3>🌲 Shared Lodges</h3>
+          <p>Connect with fellow retreat participants in comfortable, community-oriented shared spaces with all conveniences.</p>
+        </div>
+        <div class="accommodation-item">
+          <h3>🍽️ Farm-to-Table Meals</h3>
+          <p>Nourishing, seasonally-sourced cuisine prepared with intention. All dietary needs accommodated with advance notice.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section container">
+      <h2>Book Your Journey</h2>
+      <p class="muted">Reach out to us to learn more about our retreats and begin your transformation.</p>
+      <div class="contact-section">
+        <form class="contact-form">
+          <input type="text" placeholder="Your Full Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <select required>
+            <option value="">Select a Retreat Program</option>
+            <option value="yoga">Yoga & Meditation Retreat</option>
+            <option value="herbs">Healing Herbalism Intensive</option>
+            <option value="arts">Sacred Arts & Culture</option>
+          </select>
+          <input type="date" required />
+          <textarea placeholder="Tell us about yourself and what you're seeking..." rows="5" required></textarea>
+          <button class="btn" type="submit">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Makaywana Retreats. All rights reserved.</p>
+    <p>Honoring indigenous wisdom and sacred earth practices.</p>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+
+    // Close menu when a link is clicked
+    document.querySelectorAll('.nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('active');
+      });
+    });
+  </script>
 </body>
 </html>
